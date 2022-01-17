@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,15 +13,15 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HW_2_1_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WR0-0B-ZB8">
-                                <rect key="frame" x="20" y="44" width="388" height="400"/>
+                                <rect key="frame" x="20" y="54" width="350" height="349"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lLo-m3-T8M">
-                                <rect key="frame" x="20" y="492" width="388" height="400"/>
+                                <rect key="frame" x="20" y="451" width="350" height="349"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                             </view>
                         </subviews>
@@ -29,9 +29,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="lLo-m3-T8M" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="AOE-Zj-xef"/>
-                            <constraint firstItem="lLo-m3-T8M" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="B6p-9u-pcz"/>
+                            <constraint firstItem="lLo-m3-T8M" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-10" id="B6p-9u-pcz"/>
                             <constraint firstItem="lLo-m3-T8M" firstAttribute="top" secondItem="WR0-0B-ZB8" secondAttribute="bottom" constant="48" id="DUH-Zg-aTd"/>
-                            <constraint firstItem="WR0-0B-ZB8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="EMo-nU-8qu"/>
+                            <constraint firstItem="WR0-0B-ZB8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="EMo-nU-8qu"/>
                             <constraint firstItem="WR0-0B-ZB8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ag4-98-ofZ"/>
                             <constraint firstItem="WR0-0B-ZB8" firstAttribute="width" secondItem="lLo-m3-T8M" secondAttribute="width" id="hc1-Z9-Qcn"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WR0-0B-ZB8" secondAttribute="trailing" constant="20" id="hmm-3F-r3P"/>
